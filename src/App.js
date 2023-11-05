@@ -7,14 +7,26 @@ import Message from './components/04Message';
 import React from 'react';
 import UseOfState from './components/05UseOfState';
 import Counter from './components/06Counter';
+import FunctionClick from './components/07FunctionClick';
+import ClassClick from './components/08ClassClick';
+import EventBind from './components/09EventBind';
+import ParentComponent from './components/10ParentComponent';
+import UserGreeting from './components/12UserGreeting';
+import List from './components/13List';
 
 
 function App() {
   return (
     <div className="App"> 
-    <Counter></Counter>
+    <List/>
+   {/*  <ParentComponent/>
+    <UserGreeting/>
+   <FunctionClick/>
+    <ClassClick/>
+  <EventBind/>* */}
+   {/*/ <Counter></Counter>
     
-   {/* <Hello></Hello>
+    <Hello></Hello>
     
     <Hello></Hello>
     <Greet name="Sowmya" heroName="Wonder Women"><p>This is Children props</p></Greet>
