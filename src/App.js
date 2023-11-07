@@ -13,13 +13,19 @@ import EventBind from './components/09EventBind';
 import ParentComponent from './components/10ParentComponent';
 import UserGreeting from './components/12UserGreeting';
 import List from './components/13List';
+import Stylesheet from './components/14Stylesheet';
+import Inline from './components/16Inline';
+import Form from './components/17Form';
 
 
 function App() {
   return (
     <div className="App"> 
+    <Form/>
+    {/* <Stylesheet primary={true} />
+    <Inline/>
     <List/>
-   {/*  <ParentComponent/>
+    <ParentComponent/>
     <UserGreeting/>
    <FunctionClick/>
     <ClassClick/>
