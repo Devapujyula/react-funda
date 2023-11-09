@@ -16,13 +16,20 @@ import List from './components/13List';
 import Stylesheet from './components/14Stylesheet';
 import Inline from './components/16Inline';
 import Form from './components/17Form';
+import Navbar from './components/18Dropdown';
+import Dropdown from './components/18Dropdown';
+import LifecycleA from './components/19LifecycleA';
+import UseStateHook from './components/21UseStateHook';
 
 
 function App() {
   return (
     <div className="App"> 
+    <UseStateHook/>
+   {/* <LifecycleA/>
+    <Dropdown/>
     <Form/>
-    {/* <Stylesheet primary={true} />
+     <Stylesheet primary={true} />
     <Inline/>
     <List/>
     <ParentComponent/>
