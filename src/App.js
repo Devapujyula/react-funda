@@ -20,13 +20,24 @@ import Navbar from './components/18Dropdown';
 import Dropdown from './components/18Dropdown';
 import LifecycleA from './components/19LifecycleA';
 import UseStateHook from './components/21UseStateHook';
+import MapFunction from './components/22MapFunction';
+import Fragments from './components/23Fragments';
+import DOMExample from './components/24DOMExample';
+// import PropsDestructuring from './components/25propsDestructuring';
+
+
 
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
+
+  {/*  <PropsDestructuring name = "Prakash" age='25'/>
+    <DOMExample/>
+    <Fragments/>
+    <MapFunction/> 
     <UseStateHook/>
-   {/* <LifecycleA/>
+    <LifecycleA/>
     <Dropdown/>
     <Form/>
      <Stylesheet primary={true} />
