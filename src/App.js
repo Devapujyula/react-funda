@@ -23,6 +23,7 @@ import UseStateHook from './components/21UseStateHook';
 import MapFunction from './components/22MapFunction';
 import Fragments from './components/23Fragments';
 import DOMExample from './components/24DOMExample';
+import PureComponent from './components/26PureComponent';
 // import PropsDestructuring from './components/25propsDestructuring';
 
 
@@ -31,7 +32,7 @@ import DOMExample from './components/24DOMExample';
 function App() {
   return (
     <div className="App">
-
+    <PureComponent/>
   {/*  <PropsDestructuring name = "Prakash" age='25'/>
     <DOMExample/>
     <Fragments/>
