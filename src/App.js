@@ -24,6 +24,7 @@ import MapFunction from './components/22MapFunction';
 import Fragments from './components/23Fragments';
 import DOMExample from './components/24DOMExample';
 import PureComponent from './components/26PureComponent';
+import ParentCoponent from './components/28ParentComponent';
 // import PropsDestructuring from './components/25propsDestructuring';
 
 
@@ -32,8 +33,9 @@ import PureComponent from './components/26PureComponent';
 function App() {
   return (
     <div className="App">
-    <PureComponent/>
-  {/*  <PropsDestructuring name = "Prakash" age='25'/>
+    <ParentCoponent />
+   {/*  <PureComponent />
+   <PropsDestructuring name = "Prakash" age='25'/>
     <DOMExample/>
     <Fragments/>
     <MapFunction/> 
