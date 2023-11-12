@@ -25,6 +25,7 @@ import Fragments from './components/23Fragments';
 import DOMExample from './components/24DOMExample';
 import PureComponent from './components/26PureComponent';
 import ParentCoponent from './components/28ParentComponent';
+import FormState from './components/30FormState';
 // import PropsDestructuring from './components/25propsDestructuring';
 
 
@@ -33,8 +34,9 @@ import ParentCoponent from './components/28ParentComponent';
 function App() {
   return (
     <div className="App">
-    <ParentCoponent />
-   {/*  <PureComponent />
+    <FormState />
+   {/* <ParentCoponent />
+     <PureComponent />
    <PropsDestructuring name = "Prakash" age='25'/>
     <DOMExample/>
     <Fragments/>
