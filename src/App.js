@@ -34,8 +34,8 @@ import FormState from './components/30FormState';
 function App() {
   return (
     <div className="App">
-    <FormState />
-   {/* <ParentCoponent />
+  {/*   <FormState />
+   <ParentCoponent />
      <PureComponent />
    <PropsDestructuring name = "Prakash" age='25'/>
     <DOMExample/>
